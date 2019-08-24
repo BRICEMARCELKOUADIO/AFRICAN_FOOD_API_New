@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AFRICAN_FOOD", "AFRICAN_FOOD_API\AFRICAN_FOOD.csproj", "{EF82B6EF-C304-4C94-85EC-BEEE89A0153C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF82B6EF-C304-4C94-85EC-BEEE89A0153C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF82B6EF-C304-4C94-85EC-BEEE89A0153C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF82B6EF-C304-4C94-85EC-BEEE89A0153C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF82B6EF-C304-4C94-85EC-BEEE89A0153C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0141129F-EBDF-4475-B2A4-A165625B70FC}
+	EndGlobalSection
+EndGlobal

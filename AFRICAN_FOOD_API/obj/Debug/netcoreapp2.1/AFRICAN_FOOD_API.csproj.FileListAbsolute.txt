@@ -1,0 +1,14 @@
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\obj\Debug\netcoreapp2.1\AFRICAN_FOOD_API.csprojAssemblyReference.cache
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\obj\Debug\netcoreapp2.1\AFRICAN_FOOD_API.csproj.CoreCompileInputs.cache
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\obj\Debug\netcoreapp2.1\AFRICAN_FOOD_API.RazorAssemblyInfo.cache
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\obj\Debug\netcoreapp2.1\AFRICAN_FOOD_API.RazorAssemblyInfo.cs
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\obj\Debug\netcoreapp2.1\AFRICAN_FOOD_API.AssemblyInfoInputs.cache
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\obj\Debug\netcoreapp2.1\AFRICAN_FOOD_API.AssemblyInfo.cs
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\bin\Debug\netcoreapp2.1\AFRICAN_FOOD_API.deps.json
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\bin\Debug\netcoreapp2.1\AFRICAN_FOOD_API.runtimeconfig.json
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\bin\Debug\netcoreapp2.1\AFRICAN_FOOD_API.runtimeconfig.dev.json
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\bin\Debug\netcoreapp2.1\AFRICAN_FOOD_API.dll
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\bin\Debug\netcoreapp2.1\AFRICAN_FOOD_API.pdb
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\obj\Debug\netcoreapp2.1\AFRICAN_FOOD_API.RazorTargetAssemblyInfo.cache
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\obj\Debug\netcoreapp2.1\AFRICAN_FOOD_API.dll
+D:\Perso\Projet\AFRICAN_FOOD_API\AFRICAN_FOOD_API\obj\Debug\netcoreapp2.1\AFRICAN_FOOD_API.pdb
