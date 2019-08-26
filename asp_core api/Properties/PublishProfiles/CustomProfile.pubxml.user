@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ce fichier est utilisé par le processus de publication/package de votre projet web. Vous pouvez personnaliser le comportement de ce processus
+en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, visitez https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUomZbO/XkECXrnSjORJOmgAAAAACAAAAAAAQZgAAAAEAACAAAAA0+PPb0XxcJXTkXwUqsh+ghPM9F0T7jIxYTsOVvy2A7AAAAAAOgAAAAAIAACAAAAB+dhqGrFDJWuRdI8ImK4WtIC8qYVS/UOJwyq3yRmDisYAAAAA9fv4mM0lnZGe5zxA7DWEML0wyB0xsPVzGkS1EEVYTy9cZv4XjUKfrPBsli3Y90tyGIw+byqOqan51f9vKC5ovSvITlQ3QmTMqsBSTVm1e2cbXMXhumND36bmlJze4w1Fx7Jebx4Ry4ukFDmZHN0ABgwOeG+JuFGVmF+nqktZ54kAAAACMB/KuySosL5HPbOtr5WkZTWuuB8HqLD499TsHrRCfDuhTg1ZscW1lKbdBTR0lwg25yqLTwS5rR5YuqMKe/dHW</EncryptedPassword>
+    <_PublishTargetUrl>ftps://waws-prod-dm1-097.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>07/24/2019 04:25:18</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>08/25/2019 11:58:09</publishTime>
+    </File>
+    <File Include="appsettings.production.json">
+      <publishTime>08/25/2019 19:21:12</publishTime>
+    </File>
+    <File Include="asp_core api.deps.json">
+      <publishTime>08/25/2019 16:12:33</publishTime>
+    </File>
+    <File Include="asp_core api.dll">
+      <publishTime>08/25/2019 16:12:22</publishTime>
+    </File>
+    <File Include="asp_core api.pdb">
+      <publishTime>08/25/2019 16:12:22</publishTime>
+    </File>
+    <File Include="asp_core api.runtimeconfig.json">
+      <publishTime>08/25/2019 16:12:33</publishTime>
+    </File>
+    <File Include="asp_core.deps.json">
+      <publishTime>08/25/2019 19:21:12</publishTime>
+    </File>
+    <File Include="asp_core.dll">
+      <publishTime>08/25/2019 19:19:29</publishTime>
+    </File>
+    <File Include="asp_core.pdb">
+      <publishTime>08/25/2019 19:19:29</publishTime>
+    </File>
+    <File Include="asp_core.runtimeconfig.json">
+      <publishTime>08/25/2019 19:21:12</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>05/15/2018 13:29:38</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>08/25/2019 19:21:12</publishTime>
+    </File>
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:clouddatabaseserver.database.windows.net,1433%3bInitial Catalog=africanfooddb%3bPersist Security Info=False%3bUser ID=philippe%3bPassword=mXJS6%29i~uWpX%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

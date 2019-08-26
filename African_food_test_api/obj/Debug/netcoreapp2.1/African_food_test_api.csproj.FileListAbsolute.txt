@@ -1,0 +1,14 @@
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\bin\Debug\netcoreapp2.1\African_food_test_api.deps.json
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\bin\Debug\netcoreapp2.1\African_food_test_api.runtimeconfig.json
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\bin\Debug\netcoreapp2.1\African_food_test_api.runtimeconfig.dev.json
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\bin\Debug\netcoreapp2.1\African_food_test_api.dll
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\bin\Debug\netcoreapp2.1\African_food_test_api.pdb
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\obj\Debug\netcoreapp2.1\African_food_test_api.csproj.CoreCompileInputs.cache
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\obj\Debug\netcoreapp2.1\African_food_test_api.RazorAssemblyInfo.cache
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\obj\Debug\netcoreapp2.1\African_food_test_api.RazorAssemblyInfo.cs
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\obj\Debug\netcoreapp2.1\African_food_test_api.AssemblyInfoInputs.cache
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\obj\Debug\netcoreapp2.1\African_food_test_api.AssemblyInfo.cs
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\obj\Debug\netcoreapp2.1\African_food_test_api.RazorTargetAssemblyInfo.cache
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\obj\Debug\netcoreapp2.1\African_food_test_api.dll
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\obj\Debug\netcoreapp2.1\African_food_test_api.pdb
+D:\Perso\Projet\AFRICAN_FOOD_API_New\African_food_test_api\obj\Debug\netcoreapp2.1\African_food_test_api.csprojAssemblyReference.cache

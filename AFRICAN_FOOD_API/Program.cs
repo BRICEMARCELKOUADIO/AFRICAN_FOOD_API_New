@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using AFRICAN_FOOD_API.Models;
 using Microsoft.AspNetCore;
@@ -38,7 +39,7 @@ namespace AFRICAN_FOOD_API
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
+            WebHost.CreateDefaultBuilder(args)///.UseKestrel(option => option.Listen(IPAddress.Loopback,5080))
                 .UseStartup<Startup>()
                 .Build();
     }

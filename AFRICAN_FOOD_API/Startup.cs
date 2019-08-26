@@ -30,14 +30,14 @@ namespace AFRICAN_FOOD_API
         {
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
-                    sqlOptions =>
-                    {
-                        // ReSharper disable once AssignNullToNotNullAttribute
-                        sqlOptions.EnableRetryOnFailure(10, TimeSpan.FromSeconds(30), null);
-                    });
+                //options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+                //    sqlOptions =>
+                //    {
+                //        // ReSharper disable once AssignNullToNotNullAttribute
+                //        sqlOptions.EnableRetryOnFailure(10, TimeSpan.FromSeconds(30), null);
+                //    });
 
-                //options.UseInMemoryDatabase("AfricanFood");
+                options.UseInMemoryDatabase("AfricanFood");
 
                 options.ConfigureWarnings(warnings => warnings.Throw(RelationalEventId.QueryClientEvaluationWarning));
             });

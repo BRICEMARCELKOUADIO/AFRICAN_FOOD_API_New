@@ -1,0 +1,14 @@
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Release\netcoreapp2.1\asp_core api.deps.json
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Release\netcoreapp2.1\asp_core api.runtimeconfig.json
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Release\netcoreapp2.1\asp_core api.runtimeconfig.dev.json
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Release\netcoreapp2.1\asp_core api.dll
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Release\netcoreapp2.1\asp_core api.pdb
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Release\netcoreapp2.1\asp_core api.csprojAssemblyReference.cache
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Release\netcoreapp2.1\asp_core api.csproj.CoreCompileInputs.cache
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Release\netcoreapp2.1\asp_core api.RazorAssemblyInfo.cache
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Release\netcoreapp2.1\asp_core api.RazorAssemblyInfo.cs
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Release\netcoreapp2.1\asp_core api.AssemblyInfoInputs.cache
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Release\netcoreapp2.1\asp_core api.AssemblyInfo.cs
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Release\netcoreapp2.1\asp_core api.RazorTargetAssemblyInfo.cache
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Release\netcoreapp2.1\asp_core api.dll
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Release\netcoreapp2.1\asp_core api.pdb
