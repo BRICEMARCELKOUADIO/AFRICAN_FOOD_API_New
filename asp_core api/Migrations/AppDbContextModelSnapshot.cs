@@ -84,11 +84,17 @@ namespace asp_coreapi.Migrations
 
                     b.Property<bool>("IsPieOfTheWeek");
 
+                    b.Property<double>("Latitude");
+
+                    b.Property<double>("Longitude");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50);
 
                     b.Property<string>("OrderId");
+
+                    b.Property<string>("PositionGeo");
 
                     b.Property<decimal>("Price");
 
@@ -99,6 +105,8 @@ namespace asp_coreapi.Migrations
 
                     b.Property<string>("UserAdminId")
                         .IsRequired();
+
+                    b.Property<string>("UserPhone");
 
                     b.HasKey("PieId");
 
@@ -125,6 +133,8 @@ namespace asp_coreapi.Migrations
                     b.Property<int>("ShoppingCartItemId")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("ClientNumber");
 
                     b.Property<int>("PieId");
 
@@ -156,7 +166,13 @@ namespace asp_coreapi.Migrations
 
                     b.Property<string>("LastName");
 
+                    b.Property<double>("Latitude");
+
+                    b.Property<double>("Longitude");
+
                     b.Property<string>("Password");
+
+                    b.Property<string>("PositionGeo");
 
                     b.Property<bool>("TypeUser");
 

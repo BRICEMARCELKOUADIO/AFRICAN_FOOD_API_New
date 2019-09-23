@@ -11,49 +11,49 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, visitez https:
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">
-      <publishTime>07/24/2019 04:25:18</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>08/25/2019 11:58:09</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="appsettings.production.json">
-      <publishTime>08/25/2019 19:21:12</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="asp_core api.deps.json">
-      <publishTime>08/25/2019 16:12:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="asp_core api.dll">
-      <publishTime>08/25/2019 16:12:22</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="asp_core api.pdb">
-      <publishTime>08/25/2019 16:12:22</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="asp_core api.runtimeconfig.json">
-      <publishTime>08/25/2019 16:12:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="asp_core.deps.json">
-      <publishTime>08/25/2019 19:21:12</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="asp_core.dll">
-      <publishTime>08/25/2019 19:19:29</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="asp_core.pdb">
-      <publishTime>08/25/2019 19:19:29</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="asp_core.runtimeconfig.json">
-      <publishTime>08/25/2019 19:21:12</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
-      <publishTime>05/15/2018 13:29:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Configuration.ConfigurationManager.dll">
-      <publishTime>05/15/2018 13:29:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Security.Cryptography.ProtectedData.dll">
-      <publishTime>05/15/2018 13:29:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>08/25/2019 19:21:12</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
   </ItemGroup>
   <ItemGroup>

@@ -46,16 +46,19 @@ namespace AFRICAN_FOOD_API.Controllers
                     UserPhone = user.UserPhone,
                     TypeUser = user.TypeUser,
                     CommerceLocate = user.CommerceLocate,
-                    CommerceName = user.CommerceName
+                    CommerceName = user.CommerceName,
+                    Latitude = user.Latitude,
+                    Longitude = user.Longitude,
+                    PositionGeo = user.PositionGeo
                 }
-            });
+            }) ;
         }
 
         [HttpPost]
         [Route("[action]")]
-        public async Task<IActionResult> Register(string FirstName, string LastName, string Email,bool Typeuser, string CommerceName, string CommerceLocate, string UserPhone, string Password)
+        public async Task<IActionResult> Register(string FirstName, string LastName, string Email,bool Typeuser, string CommerceName, string CommerceLocate, string UserPhone, double Longitude, double Latitude, string PositionGeo, string Password)
         {
-            var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Email == Email);
+            var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Email == Email && u.UserPhone == UserPhone && u.Password == Password);
 
             if (user != null) 
             {
@@ -80,7 +83,10 @@ namespace AFRICAN_FOOD_API.Controllers
                 TypeUser = Typeuser,
                 CommerceLocate = CommerceLocate,
                 CommerceName = CommerceName,
-                Password = Password
+                Password = Password,
+                Latitude = Latitude,
+                Longitude = Longitude,
+                PositionGeo = PositionGeo
             };
 
             await _dbContext.AddAsync(user);
@@ -98,6 +104,9 @@ namespace AFRICAN_FOOD_API.Controllers
                     TypeUser = Typeuser,
                     CommerceLocate = CommerceLocate,
                     CommerceName = CommerceName,
+                    Latitude = Latitude,
+                    Longitude = Longitude,
+                    PositionGeo = PositionGeo
                 }
             });
         }

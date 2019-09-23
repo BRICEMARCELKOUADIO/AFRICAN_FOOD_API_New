@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.HttpOverrides;
 
 namespace asp_core_api
 {
@@ -87,6 +88,12 @@ namespace asp_core_api
                 app.UseStatusCodePages();
                 app.UseDeveloperExceptionPage();
             }
+
+            //app.UseForwardedHeaders(new ForwardedHeadersOptions
+            //{
+            //    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+            //});
+            //app.UseAuthentication();
 
             app.UseMvcWithDefaultRoute();
 

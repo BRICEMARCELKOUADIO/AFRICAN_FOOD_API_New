@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ce fichier est utilisé par le processus de publication/package de votre projet web. Vous pouvez personnaliser le comportement de ce processus
+en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, visitez https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>ftp://vps730084.ovh.net</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUomZbO/XkECXrnSjORJOmgAAAAACAAAAAAAQZgAAAAEAACAAAAAk4Ani9JacbsnuXtfgTuoEpdSFQ3uXdt716cN3kSv+wQAAAAAOgAAAAAIAACAAAAAtDyV9WAMvLQDsodkUtBKKodanhUjlNlX5KZIFG6n1JyAAAADvqm4shuOghYUa49u4APzy2G6/7ZC4inGhU5J6EEIAQUAAAACyr3+bOeoYqbD1t2eWfN0Q6TnQ5jIH9ILsklXZYSk3ZwUFtww3v/bhrWBESks/a/2VYxpISmrg/mr/e/ViLcf5</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>07/24/2019 04:25:18</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>09/21/2019 20:53:55</publishTime>
+    </File>
+    <File Include="appsettings.Production.json">
+      <publishTime>09/21/2019 14:19:56</publishTime>
+    </File>
+    <File Include="asp_core.deps.json">
+      <publishTime>09/23/2019 00:39:24</publishTime>
+    </File>
+    <File Include="asp_core.dll">
+      <publishTime>09/23/2019 00:39:17</publishTime>
+    </File>
+    <File Include="asp_core.pdb">
+      <publishTime>09/23/2019 00:39:17</publishTime>
+    </File>
+    <File Include="asp_core.runtimeconfig.json">
+      <publishTime>09/23/2019 00:39:24</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>05/15/2018 13:29:38</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>09/23/2019 00:39:24</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

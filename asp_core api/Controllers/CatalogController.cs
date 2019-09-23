@@ -54,13 +54,29 @@ namespace AFRICAN_FOOD_API.Controllers
             return Ok(result);
         }
 
+        [HttpPost]
+        [Route("[action]")]
+        public async Task<IActionResult> ModifyAddPies([FromBody] Pie content)
+        {
+            //var response = await content.ReadAsAsync<Pie>();
+            
+            Pie result = content;
+            if (result != null)
+            {
+                _appDbContext.Entry(result).State = EntityState.Modified;
+                await _appDbContext.SaveChangesAsync();
+            }
+
+            return Ok(result);
+        }
+
 
         [HttpPost()]
         [Route("[action]")]
         public async Task<IActionResult> AddPies(
             string name, string shortDescription, 
             decimal price ,decimal prixPromotionnel, 
-            /*byte[] image,*/ bool inStock, string userAdminId,
+            /*byte[] image,*/ bool inStock, string userAdminId, string userPhone, double latitude, double longitude, string PositionGeo,
             string image)
         {
             var pie = new Pie()
@@ -76,7 +92,12 @@ namespace AFRICAN_FOOD_API.Controllers
                 Image = image,
                // IsPieOfTheWeek = isPieOfTheWeek,
                 InStock = inStock,
-                UserAdminId = userAdminId
+                UserAdminId = userAdminId,
+                UserPhone = userPhone,
+                Latitude = latitude,
+                Longitude = longitude,
+                PositionGeo = PositionGeo
+
             };
 
             if (pie == null)
@@ -99,6 +120,20 @@ namespace AFRICAN_FOOD_API.Controllers
         }
 
         [HttpGet]
+        [Route("[action]")]
+        public async Task<ActionResult> DeletPie(int pieId)
+        {
+            var pie = _appDbContext.Pies.Where(p=>p.PieId==pieId).FirstOrDefault();
+            if (pie == null)
+            {
+                return NotFound(new Pie());
+            }
+            _appDbContext.Pies.Remove(pie);
+            await _appDbContext.SaveChangesAsync();
+            return Ok(pie);
+        }
+
+        [HttpGet]
         [Route("GetPieByAdminId/{id}")]
         public async Task<IActionResult> GetPieByAdminId(string id)
         {
@@ -106,7 +141,7 @@ namespace AFRICAN_FOOD_API.Controllers
             if (!string.IsNullOrEmpty(id))
             {
                 Pie = await _appDbContext.Pies.Where(p => p.UserAdminId == id).ToListAsync();
-                if (Pie != null)
+                if (Pie != null) 
                 {
                     return Ok(Pie);
                 }

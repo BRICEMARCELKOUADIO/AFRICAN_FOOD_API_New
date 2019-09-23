@@ -37,6 +37,11 @@ namespace AFRICAN_FOOD_API.Models
         public string Image { get; set; }
 
         public bool IsPieOfTheWeek { get; set; }
+        public string UserPhone { get; set; }
+        public double Longitude { get; set; }
+        public double Latitude { get; set; }
+
+        public string PositionGeo { get; set; }
 
         public bool InStock { get; set; }
         [Required]
