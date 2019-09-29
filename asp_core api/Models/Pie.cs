@@ -43,6 +43,8 @@ namespace AFRICAN_FOOD_API.Models
 
         public string PositionGeo { get; set; }
 
+        public int quantite { get; set; }
+
         public bool InStock { get; set; }
         [Required]
         public string UserAdminId { get; set; }

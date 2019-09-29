@@ -96,7 +96,7 @@ namespace AFRICAN_FOOD_API.Controllers
                 UserPhone = userPhone,
                 Latitude = latitude,
                 Longitude = longitude,
-                PositionGeo = PositionGeo
+                PositionGeo = PositionGeo,
 
             };
 
