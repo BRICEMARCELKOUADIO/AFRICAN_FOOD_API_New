@@ -51,51 +51,67 @@ namespace AFRICAN_FOOD_API.Controllers
                     Longitude = user.Longitude,
                     PositionGeo = user.PositionGeo
                 }
-            }) ;
+            });
         }
 
         [HttpPost]
         [Route("[action]")]
-        public async Task<IActionResult> Register(string FirstName, string LastName, string Email,bool Typeuser, string CommerceName, string CommerceLocate, string UserPhone, double Longitude, double Latitude, string PositionGeo, string Password)
+        public async Task<IActionResult> Register(string FirstName, string LastName, string Email, bool Typeuser, string CommerceName, string CommerceLocate, string UserPhone, double Longitude, double Latitude, string PositionGeo, string Password, bool Ismodify, string oldEmail)
         {
-            var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Email == Email && u.UserPhone == UserPhone && u.Password == Password);
 
-            if (user != null) 
+            if (Ismodify)
             {
-                return NotFound(
-                    new AuthenticationResponse
+                var userModify = await _dbContext.Users.FirstOrDefaultAsync(u => u.Email == oldEmail);
+                if (userModify != null && userModify.Password == Password)
+                {
+                    User userToAdd = new User()
                     {
-                        IsAuthenticated = false
-                    }) ;
-                //return Ok(new AuthenticationResponse
-                //{
-                //    IsAuthenticated = false
+                        Id = userModify.Id,
+                        TypeUser = userModify.TypeUser,
+                        FirstName = FirstName,
+                        LastName = LastName,
+                        Email = Email,
+                        CommerceLocate = CommerceLocate,
+                        CommerceName = CommerceName,
+                        UserPhone = UserPhone,
+                        Longitude = Longitude,
+                        Latitude = Latitude,
+                        PositionGeo = PositionGeo
+                    };
 
-                //});
+                    //_dbContext.
+                    _dbContext.Entry(userToAdd).State = EntityState.Modified;
+                    await _dbContext.SaveChangesAsync();
+
+                    return Ok(
+                        new AuthenticationResponse()
+                        {
+                            IsAuthenticated = true,
+                            User = userModify
+                        }
+                        );
+                }
+                return BadRequest("Database Error");
             }
-
-            user = new User()
+            else
             {
-                Email = Email,
-                FirstName =FirstName,
-                LastName = LastName,
-                UserPhone = UserPhone,
-                TypeUser = Typeuser,
-                CommerceLocate = CommerceLocate,
-                CommerceName = CommerceName,
-                Password = Password,
-                Latitude = Latitude,
-                Longitude = Longitude,
-                PositionGeo = PositionGeo
-            };
+                var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Email == Email && u.UserPhone == UserPhone && u.Password == Password);
 
-            await _dbContext.AddAsync(user);
-            await _dbContext.SaveChangesAsync();
+                if (user != null)
+                {
+                    return NotFound(
+                        new AuthenticationResponse
+                        {
+                            IsAuthenticated = false
+                        });
+                    //return Ok(new AuthenticationResponse
+                    //{
+                    //    IsAuthenticated = false
 
-            return Ok(new AuthenticationResponse
-            {
-                IsAuthenticated = true,
-                User = new User()
+                    //});
+                }
+
+                user = new User()
                 {
                     Email = Email,
                     FirstName = FirstName,
@@ -104,11 +120,36 @@ namespace AFRICAN_FOOD_API.Controllers
                     TypeUser = Typeuser,
                     CommerceLocate = CommerceLocate,
                     CommerceName = CommerceName,
+                    Password = Password,
                     Latitude = Latitude,
                     Longitude = Longitude,
                     PositionGeo = PositionGeo
-                }
-            });
+                };
+
+                await _dbContext.AddAsync(user);
+                await _dbContext.SaveChangesAsync();
+
+                return Ok(new AuthenticationResponse
+                {
+                    IsAuthenticated = true,
+                    User = new User()
+                    {
+                        Email = Email,
+                        FirstName = FirstName,
+                        LastName = LastName,
+                        UserPhone = UserPhone,
+                        TypeUser = Typeuser,
+                        CommerceLocate = CommerceLocate,
+                        CommerceName = CommerceName,
+                        Latitude = Latitude,
+                        Longitude = Longitude,
+                        PositionGeo = PositionGeo
+                    }
+                });
+            }
+                
+            
         }
     }
 }
+

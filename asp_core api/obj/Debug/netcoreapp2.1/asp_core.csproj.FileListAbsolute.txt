@@ -3,7 +3,6 @@ D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Debug\netcoreapp2.1\asp_co
 D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Debug\netcoreapp2.1\asp_core.runtimeconfig.dev.json
 D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Debug\netcoreapp2.1\asp_core.dll
 D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Debug\netcoreapp2.1\asp_core.pdb
-D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Debug\netcoreapp2.1\asp_core.csproj.CoreCompileInputs.cache
 D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Debug\netcoreapp2.1\asp_core.RazorAssemblyInfo.cache
 D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Debug\netcoreapp2.1\asp_core.RazorAssemblyInfo.cs
 D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Debug\netcoreapp2.1\asp_core.AssemblyInfoInputs.cache
@@ -12,3 +11,7 @@ D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Debug\netcoreapp2.1\asp_co
 D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Debug\netcoreapp2.1\asp_core.dll
 D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Debug\netcoreapp2.1\asp_core.pdb
 D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\obj\Debug\netcoreapp2.1\asp_core.csprojAssemblyReference.cache
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Debug\netcoreapp2.1\appsettings.Production.json
+D:\Perso\Projet\AFRICAN_FOOD_API_New\asp_core api\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
